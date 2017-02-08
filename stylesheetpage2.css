@@ -1,0 +1,48 @@
+html {
+background: url('images/71_background_800.gif') no-repeat center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:blue;
+    display: block;
+    font-size: 4em;
+
+
+}
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:blue;
+    display: block;
+    font-size: 15em;
+
+
+
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:blue;
+    display: block;
+    font-size: 15em;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color:blue;
+}
+
+a:link {
+    text-decoration: none;
+    color:blue;
+}
+
+a:hover {
+    color: yellow;

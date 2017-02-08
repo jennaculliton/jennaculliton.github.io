@@ -1,11 +1,69 @@
 html {
-	background-color:pink;
+	background: url('images/b6e35af5bc563e07eaac152ecb1c9855.gif') no-repeat center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
 body {
-	max-width: 960px;
+	/*max-width: 960px;*/
 
+}
+
+h1 { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:blue;
+    display: block;
+    letter-spacing: 200px;
+    font-size: 6em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight:thin;
+    margin:auto;
+    justify-content: center;
+
+
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:blue;
+    font-size: 25em;
+    justify-content: right;
+    margin:bottom;
+    justify-content: center;
+
+
+}
+
+a:visited {
+    text-decoration: none;
+    color:blue;
+}
+
+a:link {
+    text-decoration: none;
+    color:blue;
+}
+
+a:hover {
+    color: yellow;
+}
+
+
+
+
+}
+
+#header-image {
+	background: url('images/b6e35af5bc563e07eaac152ecb1c9855.gif') no-repeat center fixed;
+	background-size:cover;
+	height:300px;
+	width:100%;
 }
 
 .firstparagraph {
