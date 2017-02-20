@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'manifont_grotesk_book_doBkdot';
+    src: url('fonts/manifontgroteskbookdot-webfont.woff2') format('woff2'),
+         url('fonts/manifontgroteskbookdot-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dauphinedings';
+    src: url('fonts/dauphine-dings-webfont.woff2') format('woff2'),
+         url('fonts/dauphine-dings-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+html {
+    background: url('images/7f117b8470a18972973ae2bba4497682.gif') no-repeat center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h2 {
+
+    position:bottom;
+    justify-content: right;
+    top:100px;
+    left:100px;
+    color: blue;
+    font-size: 250px;
+    font-family: 'dauphinedings','Gudea', sans-serif;
+    letter-spacing: 50px;
+
+}
+
+h3 {
+    position:absolute;
+    top:30px;
+    left:40px;
+    color: yellow;
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-family: 'Gudea', helvetica, sans-serif;
+    height:200px;
+  }
+
+  h4 {
+    position:absolute;
+    top:40px;
+    left:100px;
+    color: yellow;
+    font-size: 150px;
+    font-family: 'manifont_grotesk_book_doBkdot', helvetica, sans-serif;
+    letter-spacing: 5px;
+  }
+
+p{
+  
+    color: yellow;
+    font-size: 20px;
+    font-family: 'manifont_grotesk_book_doBkdot', helvetica, sans-serif;
+    letter-spacing: 5px;
+
+
+}
+a:visited {
+    text-decoration: none;
+    color:yellow;
+}
+
+a:link {
+    text-decoration: none;
+    color:blue;
+}
+
+a:hover {
+    color: blue;
+}
+
+

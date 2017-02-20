@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'manifont_grotesk_book_doBkdot';
+    src: url('fonts/manifontgroteskbookdot-webfont.woff2') format('woff2'),
+         url('fonts/manifontgroteskbookdot-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dauphinedings';
+    src: url('fonts/dauphine-dings-webfont.woff2') format('woff2'),
+         url('fonts/dauphine-dings-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background: url('images/JPZ24XDEig02.gif') no-repeat center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h1 {
+    font-family: "Gudea", Helvetica, Arial, sans-serif;
+    color:yellow;
+    display: block;
+    font-size: 2em;
+    letter-spacing: 25px;
+}
+
+h2 {
+    font-family: "dauphinedings", Helvetica, Arial, sans-serif;
+    color:blue;
+    display: block;
+    font-size: 10em;
+    letter-spacing: 25px;
+
+
+
+}
+
+h2:hover {
+    background-color: yellow;
+}

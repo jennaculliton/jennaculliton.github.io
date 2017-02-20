@@ -1,5 +1,21 @@
+@font-face {
+    font-family: 'manifont_grotesk_book_doBkdot';
+    src: url('fonts/manifontgroteskbookdot-webfont.woff2') format('woff2'),
+         url('fonts/manifontgroteskbookdot-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dauphinedings';
+    src: url('fonts/dauphine-dings-webfont.woff2') format('woff2'),
+         url('fonts/dauphine-dings-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
-background: url('images/71_background_800.gif') no-repeat center fixed;
+background: url('images/giphy.gif') no-repeat center fixed;
 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,29 +24,57 @@ background: url('images/71_background_800.gif') no-repeat center fixed;
 }
 
 p {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "dauphinedings", Helvetica, Arial, sans-serif;
     color:blue;
     display: block;
-    font-size: 4em;
+    font-size: 20em;
 
 
 }
 
 h1 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color:blue;
+	font-family: "manifont_grotesk_book_doBkdot", Helvetica, Arial, sans-serif;
+    color: yellow;
     display: block;
-    font-size: 15em;
+    font-size: 20em;
 
 
 
 }
 
 h2 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Gudea", Helvetica, Arial, sans-serif;
     color:blue;
     display: block;
     font-size: 15em;
+
+}
+
+h3 {
+	font-family: "Gudea", Helvetica, Arial, sans-serif;
+    color:yellow;
+    display: block;
+    font-size: 5em;
+    letter-spacing: 15px;
+
+}
+
+h4 {
+	font-family: "dauphinedings", Helvetica, Arial, sans-serif;
+    color:yellow;
+    display: block;
+    font-size: 7em;
+    letter-spacing: 10px;
+
+
+}
+
+p {
+	font-family: "Gudea", Helvetica, Arial, sans-serif;
+    color:yellow;
+    display: block;
+    font-size: 3em;
+    letter-spacing: 15px;
 
 }
 
