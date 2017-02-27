@@ -26,6 +26,23 @@ background: url('images/71_background_800.gif') no-repeat center fixed;
 
 }
 
+.image {
+	width:100%;
+	height:100%;
+
+}
+
+.interior-image {
+	width:100%;
+}
+
+.container-03 {
+	display:none;
+
+}
+
+
+
 h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:yellow;
@@ -42,7 +59,7 @@ h3 {
     color: yellow;
     font-size: 200px;
     font-family: 'dauphinedings','Gudea', sans-serif;
-    letter-spacing: 50px;
+    
 }
 
 
@@ -52,7 +69,7 @@ h3 {
 
 a:visited {
     text-decoration: none;
-    color:yellow;
+    color:blue;
 }
 
 a:link {
@@ -61,7 +78,7 @@ a:link {
 }
 
 a:hover {
-    color: blue;
+    color: yellow;
 }
 
 

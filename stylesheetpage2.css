@@ -23,6 +23,22 @@ background: url('images/giphy.gif') no-repeat center fixed;
 
 }
 
+
+.image {
+	width:100%;
+	height:100%;
+
+}
+
+.interior-image {
+	width:100%;
+}
+
+.container-02 {
+	display:none;
+
+}
+
 p {
 	font-family: "dauphinedings", Helvetica, Arial, sans-serif;
     color:blue;
@@ -36,7 +52,8 @@ h1 {
 	font-family: "manifont_grotesk_book_doBkdot", Helvetica, Arial, sans-serif;
     color: yellow;
     display: block;
-    font-size: 20em;
+    font-size: 10em;
+    padding-left: 200px;
 
 
 
@@ -46,7 +63,10 @@ h2 {
 	font-family: "Gudea", Helvetica, Arial, sans-serif;
     color:blue;
     display: block;
-    font-size: 15em;
+    font-size: 10em;
+    letter-spacing: 20px;
+    padding-left:90px;
+
 
 }
 
@@ -54,7 +74,7 @@ h3 {
 	font-family: "Gudea", Helvetica, Arial, sans-serif;
     color:yellow;
     display: block;
-    font-size: 5em;
+    font-size: 3em;
     letter-spacing: 15px;
 
 }
@@ -67,7 +87,10 @@ h4 {
     letter-spacing: 10px;
 
 
+
+
 }
+
 
 
 a:visited {
@@ -82,3 +105,11 @@ a:link {
 
 a:hover {
     color: yellow;
+
+ }
+
+ p:hover {
+
+ 	color:lightblue;
+ }
+

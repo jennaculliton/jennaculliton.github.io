@@ -23,6 +23,18 @@ html {
 
 }
 
+div.title {
+    height: 10em;
+    position: relative }
+div.title p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
 body {
 	/*max-width: 960px;*/
 
@@ -34,13 +46,9 @@ h1 {
     display: block;
     letter-spacing: 200px;
     font-size: 6em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight:thin;
-    margin:auto;
-    justify-content: center;
+    font-weight:bold;
+ 	padding-left: 120px;
+ 	padding-top: 150px;
 
 
 }
@@ -70,6 +78,10 @@ a:hover {
     color: yellow;
 }
 
+h1:hover {
+
+	color: lightblue;
+}
 
 
 
