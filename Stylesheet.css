@@ -47,10 +47,15 @@ h1 {
     letter-spacing: 200px;
     font-size: 6em;
     font-weight:bold;
- 	padding-left: 120px;
+ 	padding-left: 150px;
  	padding-top: 150px;
 
 
+}
+
+h1:hover {
+
+	color: lightblue;
 }
 
 h2 {
@@ -78,10 +83,7 @@ a:hover {
     color: yellow;
 }
 
-h1:hover {
 
-	color: lightblue;
-}
 
 
 

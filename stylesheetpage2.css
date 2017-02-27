@@ -48,6 +48,10 @@ p {
 
 }
 
+ p:hover {
+	color:lightblue;
+ }
+
 h1 {
 	font-family: "manifont_grotesk_book_doBkdot", Helvetica, Arial, sans-serif;
     color: yellow;
@@ -108,8 +112,5 @@ a:hover {
 
  }
 
- p:hover {
 
- 	color:lightblue;
- }
 
